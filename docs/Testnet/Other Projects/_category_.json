@@ -1,0 +1,8 @@
+{
+  "label": "Other Projects",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Here you will find guides for testnets belonging to the Parachains."
+  }
+}

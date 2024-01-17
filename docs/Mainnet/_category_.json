@@ -1,0 +1,8 @@
+{
+  "label": "Mainnet",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Here you will find guides for testnets belonging to the Cosmos ecosystem."
+  }
+}
