@@ -5,7 +5,7 @@
 <meta name="generator" content="Docusaurus v3.1.0">
 <title data-rh="true">💾 Installation | BlackOwl</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://github.com/docs/Testnet/Cosmos-Ecosystem/Artela/ins-artela"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="💾 Installation | BlackOwl"><meta data-rh="true" name="description" content="Update and Install Dependencies"><meta data-rh="true" property="og:description" content="Update and Install Dependencies"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://github.com/docs/Testnet/Cosmos-Ecosystem/Artela/ins-artela"><link data-rh="true" rel="alternate" href="https://github.com/docs/Testnet/Cosmos-Ecosystem/Artela/ins-artela" hreflang="en"><link data-rh="true" rel="alternate" href="https://github.com/docs/Testnet/Cosmos-Ecosystem/Artela/ins-artela" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml" title="BlackOwl RSS Feed">
 <link rel="alternate" type="application/atom+xml" href="/blog/atom.xml" title="BlackOwl Atom Feed"><link rel="stylesheet" href="/assets/css/styles.af2ef42c.css">
-<script src="/assets/js/runtime~main.deed43bb.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.2460b982.js" defer="defer"></script>
 <script src="/assets/js/main.2a6e8a50.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -44,8 +44,8 @@ artelad config keyring-backend test
 <pre><code>artelad init &quot;YourNodeName&quot; --chain-id artela_11822-1
 </code></pre>
 <h3 id="download-genesis-and-addrbook-files">Download Genesis and Addrbook Files</h3>
-<pre><code>curl -L https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Artela/genesis.json &gt; $HOME/.artelad/config/genesis.json
-curl -L https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Artela/addrbook.json &gt; $HOME/.artelad/config/addrbook.json
+<pre><code>curl -s https://snapshots.blackowl.tech/artela/addrbook.json &gt; $HOME/.artelad/config/addrbook.json
+curl -s https://snapshots.blackowl.tech/artela/genesis.json &gt; $HOME/.artelad/config/genesis.json
 </code></pre>
 <h3 id="set-seeds-and-peers">Set Seeds and Peers</h3>
 <pre><code>sed -i \
