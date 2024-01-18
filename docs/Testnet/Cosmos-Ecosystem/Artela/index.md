@@ -45,8 +45,15 @@ peers="5c9b1bc492aad27a0197a6d3ea3ec9296504e6fd@artela-testnet-peer.itrocket.net
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$peers'"|' $HOME/.artelad/config/config.toml
 ```
 
-The address book gets updated every hour; you can use it for a quick launch:
+Addrbook is updated every three hours; you can use it for a quick startup:
 
 ```shell
-coming soon..
+curl -s https://snapshots.blackowl.tech/artela/addrbook.json > $HOME/.artelad/config/addrbook.json
 ```
+
+Genesis is updated every three hours; you can use it for a quick launch:
+```shell
+curl -s https://snapshots.blackowl.tech/artela/genesis.json > $HOME/.artelad/config/genesis.json
+```
+
+
