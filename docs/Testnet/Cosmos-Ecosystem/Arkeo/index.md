@@ -5,7 +5,7 @@ hide_table_of_contents: true
 
 ## Links
 
- ✔️ [Website](https://pryzm.zone/) | ✔️ [Explorer](XXXXXXX) | ✔️ [Docs](https://docs.pryzm.zone/) | ✔️ [GitHub](https://github.com/pryzm-finance) | ✔️ [Discord](https://discord.gg/pryzm-869587037286715422) | ✔️ [Zealy](https://zealy.io/c/pryzm/invite/DveYnib291jkkq4hXfTBJ)
+ ✔️ [Website](https://https://arkeo.network/) | ✔️ [Explorer](https://explorer.blackowl.tech/arkeo) | ✔️ [Docs](https://docs.arkeo.network/) | ✔️ [GitHub](https://github.com/arkeonetwork) | ✔️ [Discord](https://discord.gg/BfEHpm6uFc) |
 
 
 ---
