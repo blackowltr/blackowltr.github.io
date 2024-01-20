@@ -7,9 +7,9 @@ sidebar_position: 2
 
 ## Manual Update
 
-| Block Height |
-|--------------|
-|   1395000    |
+| Upgrade           | Block Height |
+|-------------------|--------------|
+| v0.4.7-rc6        |   1395000    |
 
 ```shell
 sudo systemctl stop artelad
