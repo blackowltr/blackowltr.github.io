@@ -5,7 +5,12 @@ hide_table_of_contents: true
 
 # Artela
 
-## [Website](https://artela.network/)
+## Links
+ ✔️ [Website](https://artela.network/) |
+ ✔️ [Blockchain Explorer](https://explorer.blackowl.tech/artela/staking) |
+ ✔️ [Docs](https://docs.artela.network/main) |
+ ✔️ [GitHub](https://github.com/artela-network) |
+ ✔️ [Discord](https://discord.gg/artela)
 
 ---
 
@@ -13,9 +18,9 @@ hide_table_of_contents: true
 
 | Components | Minimum      | **Recommended** |
 |------------|--------------|-----------------|
-| CPU        | 4            | 4               |
+| CPU        | 4            | 8               |
 | RAM        | 8 GB         | 16 GB           |
-| Storage    | 160 GB SSD   | 320 GB SSD      |
+| Storage    | 500 GB SSD   | 1 TB SSD      |
 
 ---
 
