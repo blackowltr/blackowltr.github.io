@@ -9,7 +9,7 @@ hide_table_of_contents: true
 ✔️ [Explorer](https://explorer.blackowl.tech/arkeo)
 ✔️ [Docs](https://docs.arkeo.network/)
 ✔️ [GitHub](https://github.com/arkeonetwork)
-✔️ [Discord](https://discord.gg/BfEHpm6uFc) |
+✔️ [Discord](https://discord.gg/BfEHpm6uFc)
 
 ---
 
