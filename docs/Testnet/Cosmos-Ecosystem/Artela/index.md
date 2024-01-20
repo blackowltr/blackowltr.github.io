@@ -62,3 +62,9 @@ Genesis is updated every three hours; you can use it for a quick launch:
 ```shell
 curl -L https://snapshots.blackowl.tech/artela/genesis.json > $HOME/.artelad/config/genesis.json
 ```
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
