@@ -7,7 +7,11 @@ hide_table_of_contents: true
 
 ## Links
 
- ✔️ [Website](https://pryzm.zone/) | ✔️ [Explorer](XXXXXXX) | ✔️ [Doc](https://docs.pryzm.zone/) | ✔️ [GitHub](https://github.com/pryzm-finance) | ✔️ [Discord](https://discord.gg/eZGaXFEeEZ) | ✔️ [Zealy](https://zealy.io/c/pryzm/invite/cfNmFH3eoXrvl2Rr9qk7o)
+✔️ [Website](https://pryzm.zone/)
+✔️ [Explorer](https://explorer.blackowl.tech/pryzm/)
+✔️ [Doc](https://docs.pryzm.zone/)
+✔️ [GitHub](https://github.com/pryzm-finance)
+✔️ [Discord](https://discord.gg/eZGaXFEeEZ) 
 
 ## **System Requirements**
 
@@ -25,17 +29,34 @@ hide_table_of_contents: true
 * **Working directory:** .pryzm
 
 ## Public Services
-* **RPC:** pryzm.rpc.blackowl.tech
-* **API:** pryzm.api.blackowl.tech
-* **Explorer:** 
+* **RPC:** https://pryzm.rpc.blackowl.tech/
+* **API:** https://pryzm.api.blackowl.tech/
+* **Explorer:** https://explorer.blackowl.tech/pryzm/
 
-## Peering
-You can use peer for fast connection or state sync
+## **Peer, Addrbook and Genesis**
+
+### Peer
+You can use a peer for quick connections or state synchronization:
+
 ```shell
-peers=""
-sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.pryzm/config/config.toml
+PEERS="66f1d16aaffe5f24ff0fa01da43999258600d0f9@34.91.84.193:26656,829661ad5ee7ddf6a495f7bef7b253d8917377d5@160.20.109.187:41656,3ce84b20d099685ca9391c2fd9fdbe42f5a24dfb@144.91.85.108:31656,ef4dcd5de768c96c0bc4d2b1155e3b66dcd18cb4@18.220.12.210:26656,acf9d84ba30a988a72e28c2e1da448476e6d9986@78.46.103.246:26656,652b71bacdc135e26e7f3cbde21ce6cf26b5cff4@3.139.105.215:26656,19102f727574337f014772f56920c1e5a4efe52d@135.181.254.74:26656,89f6a47c6befc303e460886e4c4a10039119e961@15.204.220.126:26656,d0a4439dab0af18cbd789506f91b31e4c1f3521d@194.242.57.192:31656,9515a13bbdeb233eb59efd6e8db892ac46e5bac5@142.132.153.6:56656,1453780780f5915db04e951458a07fec817daa11@62.171.154.213:31656,53c21574397826e080d9d88f756872c5b764d1a2@[2a01:4f9:3051:19c2::2]:12456,a1b8df20aa6fac17487cebd41603dfea79e4458e@95.217.148.219:26656,36e5a1cb30065e3e552cb4431a4221f20601d367@158.220.96.87:31656,f9b4709c7638904f019b6bebbf4a34b6a87a9214@165.22.70.89:31656,0a056b8d5f93f14777e019c75542e276ba416f50@65.109.88.254:27656,2abcb4bc3db1d4cfd80758f5811b62923b64ff60@213.133.100.206:26656,0d067f67a8417be11ffb4e540b59d91385cbcc0d@68.183.180.210:23256,a9dd619dabc369abb9cb6b880f2a2a12a81a878a@167.235.192.221:41656,49dac8de6748c77dbde7989a858df56603bf6aae@51.91.215.27:26656,d9a846e2632764c44577ce71c859c4167b8c5c18@178.128.197.47:26656,f9ade689abb3c59d3e3d8edf26c65bde3db58676@116.202.85.52:35656,4f6daf928c6594881ae8fe8d62e3f97dd56f606c@65.21.22.30:26656,794b538577a59f789ce942fd393730da3e8c0ffe@34.65.224.175:26656,b13241f1266797b9192c34ca27914ecdc96e6e54@65.109.10.11:31656,7856ed96855ad72526694bb81fd91c5e684a61b6@95.216.164.167:41656,7e33da7623a7f5a2ebcc0249fe1336ba6c839594@178.162.165.154:26656,0e236d748212fcf9de89c8882f44e682f93475dc@159.69.193.68:36656,c176528e93142915af27e73511e21afc2dce22f4@65.109.28.177:26706,b5cbda80baeb1f9ad91e5246dc3715ef48caeff6@185.119.116.228:26656,2cd469c08f4ec4b40aa8046a3e92ee5c61341362@159.69.208.111:10656,6d62eb05bf5e25fcdcf2262b4f27dca00598b547@5.161.200.136:26656,65fc0762b30dc50a3ad30b79f869d32540ae95bf@84.46.241.89:41656,fbfd48af73cd1f6de7f9102a0086ac63f46fb911@65.108.231.124:41656,5c2a752c9b1952dbed075c56c600c3a79b58c395@195.3.220.54:27406,6b2c531bc66a37f58ce9b1fda052b01583ac98f1@49.13.126.13:41656,c6c57d77fd753ed3063f89c14bf3adcb3937a6a2@89.58.32.218:27710,2a51f30a5d52817fbba5ef5e77e90d06ffeceea0@192.248.145.107:41656,b107d7327834b5a256a1287f6e4195a157578f74@205.134.240.232:26656,1aeb2ea459879a0f2cc5f2907af7bd5a7ab9bd9b@65.109.113.233:24856,78b46878bf26dc9e96c63aa4d1972f93e55e0c85@65.109.28.165:3000,032499ca294fae946125b63987f7ceda7f32cfc2@164.68.102.36:31656,fbc34b40f4c8600175f1d400f0fd18e36f816f06@65.109.92.148:56656,41ba001b64df6e902104c002ddf1bafff4824603@125.129.14.168:30000,95e0824a20815865d81373616ff8cae75cd3f5e7@165.22.53.35:23256,640fa0a0aab43e996950e5725f4ba2d5a572f7e2@95.217.210.9:26656,4405cc2a68680af63d406a8099986d1d91b1c4d8@65.109.239.243:41656,6bcfcac0921a973ac1f8eab5619fcc9da7de5e27@128.140.89.194:26656,1513d8019b7ed36db54b5fbe6e4910e8029093a4@161.97.175.79:41656,7397a1bcbf413b76bd710fcf363f8259acdc4d29@144.91.84.168:23256"
+sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.pryzm/config/config.toml
 ```
-The address book is updated once an hour. You can use it for quick launch.
+
+### Addrbook
+Addrbook is updated every three hours; you can use it for a quick startup:
+
 ```shell
-wget -O $HOME/.pryzm/config/addrbook.json ""
+coming soon..
+```
+### Genesis
+Genesis is updated every three hours; you can use it for a quick launch:
+```shell
+coming soon..
+```
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
 ```
