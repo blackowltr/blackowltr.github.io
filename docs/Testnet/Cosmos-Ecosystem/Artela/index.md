@@ -38,6 +38,7 @@ hide_table_of_contents: true
 
 ## **Peer, Addrbook and Genesis**
 
+### Peer
 You can use a peer for quick connections or state synchronization:
 
 ```shell
@@ -45,12 +46,13 @@ PEERS="9e2fbfc4b32a1b013e53f3fc9b45638f4cddee36@47.254.66.177:26656,f809f4fd17a9
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.artelad/config/config.toml
 ```
 
+### Addrbook
 Addrbook is updated every three hours; you can use it for a quick startup:
 
 ```shell
 curl -L https://snapshots.blackowl.tech/artela/addrbook.json > $HOME/.artelad/config/addrbook.json
 ```
-
+### Genesis
 Genesis is updated every three hours; you can use it for a quick launch:
 ```shell
 curl -L https://snapshots.blackowl.tech/artela/genesis.json > $HOME/.artelad/config/genesis.json
