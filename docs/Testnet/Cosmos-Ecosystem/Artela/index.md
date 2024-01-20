@@ -36,7 +36,7 @@ hide_table_of_contents: true
 
 ---
 
-## **Peering**
+## **Peer, Addrbook and Genesis**
 
 You can use a peer for quick connections or state synchronization:
 
