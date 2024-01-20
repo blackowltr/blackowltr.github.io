@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 # StateSync
-
+```
 sudo systemctl stop arkeod
 
 cp $HOME/.arkeo/data/priv_validator_state.json $HOME/.arkeo/priv_validator_state.json.backup
@@ -30,3 +30,4 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.arkeo/config/config.toml
 mv $HOME/.arkeo/priv_validator_state.json.backup $HOME/.arkeo/data/priv_validator_state.json
 
 sudo systemctl restart arkeod && sudo journalctl -u arkeod -f
+```
