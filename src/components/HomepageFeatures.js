@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      Specialized snapshot services ensure smooth blockchain operations by offering seamless access to historical network data, acting as a safety net for uninterrupted functionality.
+      Specialized snapshot services act as a safety net for uninterrupted blockchain functionality by providing seamless access to historical network data.
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Utilizing our in-depth knowledge of protocols and governance, we provide an unparalleled and secure service that surpasses mere excellence.
+        We provide an unparalleled and secure service through deep protocol and governance expertise.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Explore our comprehensive educational resources tailored to enlighten both beginners and experienced enthusiasts on PoS networks' intricacies, spanning staking, governance, and more.
+        Discover concise educational resources on PoS networks, covering staking, governance, and more for all levels of expertise.
       </>
     ),
   },
