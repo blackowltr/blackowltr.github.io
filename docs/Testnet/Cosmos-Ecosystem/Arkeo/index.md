@@ -29,7 +29,7 @@ hide_table_of_contents: true
 - **Network Chain ID:** arkeo
 - **Binary:** arkeod
 - **Denom:** uarkeo
-- **Working directory:** .arkeod
+- **Working directory:** .arkeo
 
 ---
 
