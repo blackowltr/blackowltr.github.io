@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-      Specialized snapshot services act as a safety net for uninterrupted blockchain functionality by providing seamless access to historical network data.
+      Specialized snapshot services ensure uninterrupted blockchain functionality with seamless access to historical network data.
       </>
     ),
   },
