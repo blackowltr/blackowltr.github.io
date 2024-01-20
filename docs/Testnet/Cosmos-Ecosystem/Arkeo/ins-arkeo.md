@@ -35,13 +35,14 @@ arkeod config chain-id arkeo
 arkeod config keyring-backend test
 ```
 ### Initialize the Node
->Configure the necessary settings to start Artelad. Replace "YourNodeName" with your own node name.
+>Configure the necessary settings to start Arkeo. Replace "YourNodeName" with your own node name.
 ```shell
 arkeod init "YourNodeName" --chain-id arkeo
 ```
 ### Download Genesis and Addrbook Files
 ```shell
-coming soon.
+curl -L https://snapshots.blackowl.tech/arkeo/addrbook.json > $HOME/.arkeo/config/addrbook.json
+curl -L https://snapshots.blackowl.tech/arkeo/genesis.json > $HOME/.arkeo/config/genesis.json
 ```
 ### Set Peers
 ```shell
