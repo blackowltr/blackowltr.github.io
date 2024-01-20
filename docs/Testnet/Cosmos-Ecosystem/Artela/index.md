@@ -48,10 +48,10 @@ sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.artelad/
 Addrbook is updated every three hours; you can use it for a quick startup:
 
 ```shell
-curl -s https://snapshots.blackowl.tech/artela/addrbook.json > $HOME/.artelad/config/addrbook.json
+curl -L https://snapshots.blackowl.tech/artela/addrbook.json > $HOME/.artelad/config/addrbook.json
 ```
 
 Genesis is updated every three hours; you can use it for a quick launch:
 ```shell
-curl -s https://snapshots.blackowl.tech/artela/genesis.json > $HOME/.artelad/config/genesis.json
+curl -L https://snapshots.blackowl.tech/artela/genesis.json > $HOME/.artelad/config/genesis.json
 ```
