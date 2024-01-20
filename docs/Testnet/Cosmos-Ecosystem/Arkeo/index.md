@@ -55,12 +55,12 @@ sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.arkeo/co
 Addrbook is updated every three hours; you can use it for a quick startup:
 
 ```shell
-coming soon.
+curl -L https://snapshots.blackowl.tech/arkeo/addrbook.json > $HOME/.arkeo/config/addrbook.json
 ```
 ### Genesis
 Genesis is updated every three hours; you can use it for a quick launch:
 ```shell
-coming soon.
+curl -L https://snapshots.blackowl.tech/arkeo/genesis.json > $HOME/.arkeo/config/genesis.json
 ```
 
 ```mdx-code-block
