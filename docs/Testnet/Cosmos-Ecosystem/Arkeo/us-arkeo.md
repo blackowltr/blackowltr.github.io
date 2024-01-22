@@ -99,20 +99,20 @@ arkeod tx staking delegate $(arkeod keys show wallet --bech val -a) 1000000uarke
 ```
 ### Delegate
 ```
-arkeod tx staking delegate YOUR_TO_VALOPER_ADDRESS 1000000uart --from wallet --chain-id artela_11822-1 --gas-prices 0.1uart --gas-adjustment 1.5 --gas auto -y
+arkeod tx staking delegate yourvaloperaddress 100000000uarkeo --from wallet --chain-id arkeo --gas-prices 0.1uarkeo --gas-adjustment 1.5 --gas auto -y
 ```
 ### Redelegate
 ```
-arkeod tx staking redelegate $(arkeod keys show wallet --bech val -a) YOUR_TO_VALOPER_ADDRESS 1000000uart --from wallet --chain-id artela_11822-1 --gas-prices 0.1uart --gas-adjustment 1.5 --gas auto -y
+arkeod tx staking redelegate $(arkeod keys show wallet --bech val -a) YOUR_TO_VALOPER_ADDRESS 1000000uarkeo --from wallet --chain-id arkeo --gas-prices 0.1uarkeo --gas-adjustment 1.5 --gas auto -y
 ```
 ### Unbond
 ```
-arkeod tx staking unbond $(artelad keys show wallet --bech val -a) 1000000uart --from wallet --chain-id artela_11822-1 --gas-prices 0.1uart --gas-adjustment 1.5 --gas auto -y
+arkeod tx staking unbond $(artelad keys show wallet --bech val -a) 1000000uarkeo --from wallet --chain-id arkeo --gas-prices 0.1uarkeo --gas-adjustment 1.5 --gas auto -y
 ```
 ## Transactions and Bank Operations
 ### Send
 ```
-arkeod tx bank send wallet YOUR_TO_WALLET_ADDRESS 1000000uart --from wallet --chain-id artela_11822-1 --gas-prices 0.1uart --gas-adjustment 1.5 --gas auto -y
+arkeod tx bank send wallet YOUR_TO_WALLET_ADDRESS 1000000uarkeo --from wallet --chain-id arkeo --gas-prices 0.1uarkeo --gas-adjustment 1.5 --gas auto -y
 ```
 ## Governance Operations
 ### Create New Text Proposal
