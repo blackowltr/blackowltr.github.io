@@ -38,19 +38,19 @@ arkeod q bank balances $(arkeod keys show wallet -a)
 arkeod tx staking create-validator \
 --amount=1000000uarkeo \
 --pubkey=$(arkeod tendermint show-validator) \
---moniker="YourMonikerName" \
---identity=YOUR_IDENTITY \ #Optional
---details="YOUR_DETAILS" \ #Optional
+--moniker= \
+--identity= \
+--details="" \
 --chain-id=arkeo \
 --commission-rate=0.10 \
 --commission-max-rate=0.20 \
 --commission-max-change-rate=0.01 \
 --min-self-delegation=1 \
---from=YOURWALLETNAME \
+--from=YOURWALLET \
 --gas-prices=0.1uarkeo \
 --gas-adjustment=1.5 \
 --gas=auto \
--y
+-y 
 ```
 ### Edit Existing Validator
 ```
