@@ -5,6 +5,8 @@ hide_table_of_contents: true
 
 # Nibiru Chain
 
+![Nibiru](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/3f830163-30d0-442b-be77-afdbdfb4954a)
+
 ## Links
  ✔️ [Nibiru](https://app.nibiru.fi/) |
  ✔️ [Blockchain Explorer](https://explorer.blackowl.tech/nibiruchain/staking) |
