@@ -1,5 +1,5 @@
 ---
-id: introduction
+id: Warden Protocol
 hide_table_of_contents: true
 ---
 
