@@ -35,8 +35,8 @@ hide_table_of_contents: true
 
 ## **Public Services**
 
-- **RPC:** https://warden.rpc.blackowl.tech/
-- **API:** https://warden.api.blackowl.tech/
+- **RPC:** 
+- **API:** 
 - **Explorer:** 
 
 ---
