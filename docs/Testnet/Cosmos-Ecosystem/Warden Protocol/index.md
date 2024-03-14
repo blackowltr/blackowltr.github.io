@@ -5,12 +5,6 @@ hide_table_of_contents: true
 
 ## Links
 
-✔️ [Website]()
-✔️ [Explorer]()
-✔️ [Docs]()
-✔️ [GitHub]()
-✔️ [Discord]()
-
 ---
 
 ## **System Requirements**
