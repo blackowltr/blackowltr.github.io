@@ -17,7 +17,7 @@ sudo apt -y upgrade
 ```
 
 ### Step 2: Configuring Moniker
-Replace <your-moniker-name> with your own validator name
+Replace "your-moniker-name" with your own validator name
 ```shell
 MONIKER="YOUR_MONIKER_NAME"
 ```
