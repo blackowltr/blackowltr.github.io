@@ -9,7 +9,7 @@ keywords: [aligned, installation, snapshot, statesync, update, useful commands]
 In this guide, you will learn how to set up a node on the AlignedLayer network step by step. Follow these steps to start your own node and join the network.
 
 ### Step 1: Installing Required Dependencies
-> Updating system packages and installing necessary tools
+Updating system packages and installing necessary tools
 ```shell
 sudo apt update -q
 sudo apt -y install curl git jq lz4 build-essential fail2ban ufw
@@ -17,13 +17,13 @@ sudo apt -y upgrade
 ```
 
 ### Step 2: Configuring Moniker
-> Replace <your-moniker-name> with your own validator name
+Replace <your-moniker-name> with your own validator name
 ```shell
 MONIKER="YOUR_MONIKER_NAME"
 ```
 
 ### Step 3: Installing Go version 1.21.1
-> Installing Go version 1.21.1
+Installing Go version 1.21.1
 ```shell
 sudo rm -rf /usr/local/go
 curl -Ls https://go.dev/dl/go1.21.1.linux-amd64.tar.gz | sudo tar -C /usr/local -xz
@@ -32,7 +32,7 @@ echo 'export PATH=$PATH:$HOME/go/bin' | tee -a $HOME/.profile
 ```
 
 ### Step 4: Building Binaries
-> Cloning the project repository and compiling binaries
+Cloning the project repository and compiling binaries
 ```shell
 cd $HOME
 rm -rf $HOME/aligned_layer_tendermint
@@ -42,14 +42,14 @@ go build
 ```
 
 ### Step 5: Preparing Binaries for Cosmovisor
-> Moving compiled binaries to Cosmovisor directory
+Moving compiled binaries to Cosmovisor directory
 ```shell
 mkdir -p $HOME/.alignedlayer/cosmovisor/genesis/bin
 mv alignedlayerd $HOME/.alignedlayer/cosmovisor/genesis/bin/
 ```
 
 ### Step 6: Creating Symbolic Links
-> Creating symbolic links for Cosmovisor
+Creating symbolic links for Cosmovisor
 ```shell
 sudo ln -s $HOME/.alignedlayer/cosmovisor/genesis $HOME/.alignedlayer/cosmovisor/current -f
 sudo ln -s $HOME/.alignedlayer/cosmovisor/current/bin/alignedlayerd /usr/local/bin/alignedlayerd -f
@@ -85,20 +85,20 @@ EOF
 ```
 
 ### Step 9: Enabling the Service
-> Enabling the AlignedLayer systemd service
+Enabling the AlignedLayer systemd service
 ```shell
 sudo systemctl daemon-reload
 sudo systemctl enable alignedlayer
 ```
 
 ### Step 10: Initializing the Node
-> Initializing the AlignedLayer node
+Initializing the AlignedLayer node
 ```shell
 alignedlayerd init $MONIKER --chain-id alignedlayer
 ```
 
 ### Step 11: Configuring Node Settings
-> Setting node configuration
+Setting node configuration
 ```shell
 sed -i \
   -e 's|^chain-id *=.*|chain-id = "alignedlayer"|' \
@@ -108,32 +108,32 @@ sed -i \
 ```
 
 ### Step 12: Downloading Genesis & Addrbook
-> Downloading genesis & addrbook files
+Downloading genesis & addrbook files
 ```shell
 curl -Ls https://snap.nodex.one/alignedlayer-testnet/genesis.json > $HOME/.alignedlayer/config/genesis.json
 curl -Ls https://snap.nodex.one/alignedlayer-testnet/addrbook.json > $HOME/.alignedlayer/config/addrbook.json
 ```
 
 ### Step 13: Configuring Seeds
-> Configuring seed peers
+Configuring seed peers
 ```shell
 sed -i -e "s|^seeds *=.*|seeds = \"d1d43cc7c7aef715957289fd96a114ecaa7ba756@testnet-seeds.nodex.one:24210\"|" $HOME/.alignedlayer/config/config.toml
 ```
 
 ### Step 14: Configuring Persistent Peers
-> Configuring persistent peers
+Configuring persistent peers
 ```shell
 sed -i -e 's|^persistent_peers *=.*|persistent_peers = "a1a98d9caf27c3363fab07a8e57ee0927d8c7eec@128.140.3.188:26656,1beca410dba8907a61552554b242b4200788201c@91.107.239.79:26656,f9000461b5f535f0c13a543898cc7ac1cd10f945@88.99.174.203:26656,ca2f644f3f47521ff8245f7a5183e9bbb762c09d@116.203.81.174:26656,dc2011a64fc5f888a3e575f84ecb680194307b56@148.251.235.130:20656"|' $HOME/.alignedlayer/config/config.toml
 ```
 
 ### Step 15: Configuring Gas Prices
-> Configuring gas prices
+Configuring gas prices
 ```shell
 sed -i -e "s|^minimum-gas-prices *=.*|minimum-gas-prices = \"0.0001stake\"|" $HOME/.alignedlayer/config/app.toml
 ```
 
 ### Step 16: Setting Pruning Options
-> Configuring pruning options
+Configuring pruning options
 ```shell
 sed -i \
   -e 's|^pruning *=.*|pruning = "custom"|' \
@@ -153,4 +153,3 @@ Start Service
 ```shell
 sudo systemctl start alignedlayer
 ```
-
