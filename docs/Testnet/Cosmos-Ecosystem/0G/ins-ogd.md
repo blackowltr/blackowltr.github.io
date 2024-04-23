@@ -43,11 +43,11 @@ keywords: [0gd, installation, snapshot, statesync, update, useful commands]
      source ~/.bash_profile
      ```
 
-     - Create a directory for custom Go binaries:
+   - Create a directory for custom Go binaries:
 
-       ```bash
-       [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
-       ```
+     ```bash
+     [ ! -d ~/go/bin ] && mkdir -p ~/go/bin
+     ```
 
 4. **Set Environment Variables:**
 
