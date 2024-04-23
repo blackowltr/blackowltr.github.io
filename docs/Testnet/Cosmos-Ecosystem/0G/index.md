@@ -3,11 +3,6 @@ id: Introduction
 hide_table_of_contents: true
 ---
 
----
-id: introduction
-hide_table_of_contents: true
----
-
 # 0G
 
 ## Links
