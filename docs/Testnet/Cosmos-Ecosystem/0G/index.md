@@ -5,6 +5,8 @@ hide_table_of_contents: true
 
 # 0G
 
+![0gtasarimim)](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/48243956-1bd1-431d-aba2-a9463825342c)
+
 ## Links
  ✔️ [Website](https://0g.ai/) |
  ✔️ [Blockchain Explorer](https://explorer.blackowl.tech/0G/staking) |
