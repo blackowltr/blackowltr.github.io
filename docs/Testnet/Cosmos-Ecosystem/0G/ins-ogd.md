@@ -57,7 +57,7 @@ keywords: [0gd, installation, snapshot, statesync, update, useful commands]
      export WALLET="wallet"  # Replace with your wallet name
      export MONIKER="test"    # Node name
      export OG_CHAIN_ID="zgtendermint_9000-1"
-     export OG_PORT="47"      # Custom port for Evmos node
+     export OG_PORT="11"      # Custom port for Evmos node
      ```
 
    - Load these variables into your shell profile:
@@ -109,6 +109,7 @@ keywords: [0gd, installation, snapshot, statesync, update, useful commands]
    - Download the genesis file and address book for the Evmos testnet:
 
      ```bash
+     soon
      ```
 
    - Set seeds and peers for connecting to the network:
@@ -189,7 +190,7 @@ keywords: [0gd, installation, snapshot, statesync, update, useful commands]
    - Check if a snapshot is available for faster node initialization:
 
      ```bash
-     
+     soon
      ```
 
    - Enable and start the Evmos node service:
