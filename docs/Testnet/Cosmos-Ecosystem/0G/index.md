@@ -52,6 +52,7 @@ hide_table_of_contents: true
 You can use a peer for quick connections or state synchronization:
 
 ```shell
+soon
 ```
 
 ### Addrbook
