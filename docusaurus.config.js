@@ -24,13 +24,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/blackowltr/blackowltr.github.io/',
+          editUrl: 'sitemap.xml',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/blackowltr/blackowltr.github.io/',
+            'https://github.com/blackowltr/blackowltr.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
