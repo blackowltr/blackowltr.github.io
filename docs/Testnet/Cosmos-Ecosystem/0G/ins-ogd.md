@@ -204,4 +204,4 @@ keywords: [0g, installation, snapshot, statesync, update, useful commands]
      sudo journalctl -u evmosd -f
      ```
 
-Your Evmos node should now be running and connected to the testnet.
+Your 0G node should now be running and connected to the testnet.
