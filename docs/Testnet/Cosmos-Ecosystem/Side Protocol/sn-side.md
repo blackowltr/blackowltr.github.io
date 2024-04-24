@@ -5,8 +5,9 @@ description: Snapshot for Side Protocol
 
 # Snapshot
 
-!!! info
-    Snapshot taken every `6 hours.`
+<div class="alert alert-info" role="alert">
+    Snapshot taken every <code>6 hours.</code>
+</div>
 
 ```shell
 sudo apt update
