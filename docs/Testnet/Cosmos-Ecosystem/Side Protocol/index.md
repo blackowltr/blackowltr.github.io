@@ -1,7 +1,7 @@
 ---
 id: introduction
 hide_table_of_contents: true
-description: Side Protocol Service Page
+description: Side Protocol Service
 keywords: [side, protocol, chain, installation, snapshot, statesync, useful commands]
 ---
 # Side Protocol
