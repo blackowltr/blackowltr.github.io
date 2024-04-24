@@ -35,13 +35,7 @@ The address book is updated once three hour. You can use it for quick launch.
 soon
 ```
 
-
-
-
-
-
-```
-mdx-code-block
+```mdx-code-block
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
