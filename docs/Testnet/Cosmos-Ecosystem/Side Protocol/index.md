@@ -40,7 +40,8 @@ soon
 
 
 
-```mdx-code-block
+```
+mdx-code-block
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
