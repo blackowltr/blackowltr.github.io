@@ -7,7 +7,7 @@ description: Snapshot for Side Protocol
 
 :::info
 Snapshot taken every `6 hours.`
-::::
+:::
 
 ```shell
 # install lz4
