@@ -118,7 +118,6 @@ keywords: [0gd, installation, snapshot, statesync, update, useful commands]
      sed -i -e 's|^seeds *=.*|seeds = "8c01665f88896bca44e8902a30e4278bed08033f@54.241.167.190:26656,b288e8b37f4b0dbd9a03e8ce926cd9c801aacf27@54.176.175.48:26656,8e20e8e88d504e67c7a3a58c2ea31d965aa2a890@54.193.250.204:26656"|' $HOME/.evmosd/config/config.toml
    ```
 
-
 **7. Set Custom Ports and Enable Prometheus:**
 
    - Modify the `app.toml` file to use custom ports for various services:
