@@ -12,7 +12,7 @@ keywords: [side, protocol, chain, installation, snapshot, statesync, useful comm
 | ------------ | ------------ | ------------ |
 | CPU |	4 | 8 |
 | RAM	| 8 GB | 16 GB |
-| Storage	| 300 GB SSD | 1 TB SSD |
+| Storage	| 500 GB SSD | 1 TB SSD |
 
 ## Network Info 
 * Network Chain ID: 
