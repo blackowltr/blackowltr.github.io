@@ -5,9 +5,8 @@ description: Snapshot for Side Protocol
 
 # Snapshot
 
-:::info
-Snapshot taken every `6 hours.`
-:::
+!!! info
+    Snapshot taken every `6 hours.`
 
 ```shell
 sudo apt update
