@@ -1,4 +1,4 @@
 ---
 title: 💾 Installation
-description: Node Installation Guide
+description: Side Protocol Node Installation Guide
 ---
