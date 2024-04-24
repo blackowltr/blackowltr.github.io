@@ -1,10 +1,8 @@
 ---
 title: 💾 Installation
 sidebar_position: 2
-keywords: [0gd, installation, snapshot, statesync, update, useful commands]
+keywords: [0g, installation, snapshot, statesync, update, useful commands]
 ---
-
-**Instructions:**
 
 1. **Update and Upgrade System Packages:**
 
