@@ -37,13 +37,13 @@ hide_table_of_contents: true
 
 ## **Public Services**
 
-- **RPC:** 
-- **API:** 
-- **Explorer:** 
+- **RPC:** https://og-rpc.blackowl.tech
+- **API:** https://og-api.blackowl.tech
+- **Explorer:** https://explorer.blackowl.tech/0G
 
 ---
 
-## **Peer, Addrbook and Genesis**
+## **Peer and Addrbook**
 
 ### Peer
 You can use a peer for quick connections or state synchronization:
@@ -55,12 +55,6 @@ soon
 ### Addrbook
 Addrbook is updated every three hours; you can use it for a quick startup:
 
-```shell
-soon
-```
-
-### Genesis
-Genesis is updated every three hours; you can use it for a quick launch:
 ```shell
 soon
 ```
