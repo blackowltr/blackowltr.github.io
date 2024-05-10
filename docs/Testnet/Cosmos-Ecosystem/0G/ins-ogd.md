@@ -69,11 +69,11 @@ keywords: [0g, installation, snapshot, statesync, update, useful commands]
    - Clone the 0gchain repository from GitHub:
 
      ```bash
-   cd $HOME
-   git clone -b v0.1.0 https://github.com/0glabs/0g-chain.git
-   ./0g-chain/networks/testnet/install.sh
-   source .profile
-   0gchaind version
+      cd $HOME
+      git clone -b v0.1.0 https://github.com/0glabs/0g-chain.git
+      ./0g-chain/networks/testnet/install.sh
+      source .profile
+      0gchaind version
      ```
 
 6. **Configure 0gchain Node:**
