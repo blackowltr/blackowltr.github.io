@@ -52,7 +52,7 @@ sudo systemctl restart initiad && sudo journalctl -u initiad -f --no-hostname -o
 ```
 
 ### Addrbook
-Addrbook is updated every three hours; you can use it for a quick startup:
+Addrbook is updated every one hours; you can use it for a quick startup:
 
 ```shell
 wget -O $HOME/.initia/config/addrbook.json "https://testnet.blackowl.tech/initia/addrbook.json"
