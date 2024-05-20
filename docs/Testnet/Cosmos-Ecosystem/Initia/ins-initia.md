@@ -66,7 +66,7 @@ source $HOME/.bash_profile
 For a node named `BlackOwl-Testnet` and wallet named `BlackOwl-Testnet`, using port `26656`, the commands would be:
 ```shell
 echo "export INITIA_NODENAME=BlackOwl-Testnet"  >> $HOME/.bash_profile
-echo "export INITIA_WALLET=Anatolian-Guide" >> $HOME/.bash_profile
+echo "export INITIA_WALLET=BlackOwl-Testnet" >> $HOME/.bash_profile
 echo "export INITIA_CHAIN_ID=initiation-1" >> $HOME/.bash_profile
 source $HOME/.bash_profile
 ```
