@@ -1,6 +1,6 @@
 ---
 title: ⚙️ Tool
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 You can use our single command script for Public RPC.
