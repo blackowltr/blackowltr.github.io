@@ -16,7 +16,7 @@ bash <(curl -sSL https://github.com/blackowltr/Testnetler-ve-Rehberler/raw/main/
 ```
 
 ### Public RPC Endpoint
-> You can use our single command script for Public RPC.
+> Utilize our single-command script for Public RPC effortlessly.
 ```shell
 bash <(wget -qO - https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/rpc-endpoint.sh)
 ```
