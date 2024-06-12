@@ -9,6 +9,12 @@ sidebar_position: 6
 wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.15.sh | bash
 ```
 
+### Oracle
+> Install oracle with a single command.
+```shell
+wget -O - https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/oracle.sh | bash
+```
+
 ## Quick Vote Command for Proposals
 > Now, participating in voting for proposals is easier than ever with our quick vote command. Execute the following command to swiftly cast your vote:
 ```shell
