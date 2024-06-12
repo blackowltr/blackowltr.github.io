@@ -1,6 +1,6 @@
 ---
-title: Oracle
-sidebar_position: 2
+title: ⚡ Oracle
+sidebar_position: 6
 ---
 
 # Initia Oracle Setup Guide
