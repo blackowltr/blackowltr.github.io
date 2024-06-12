@@ -64,45 +64,60 @@ git checkout v0.2.15
 make install
 ```
 
-## Configuring and Launching the Node
-Configure the node with the following settings.
+### Configuring and Launching the Node
+
+#### Configure the Node Settings
 ```shell
 initiad config set client chain-id initiation-1
 initiad config set client keyring-backend test
 initiad init --chain-id initiation-1 $INITIA_NODENAME
+```
 
-# Copy Genesis and addrbook Files
+#### Copy Genesis and Addrbook Files
+```shell
 wget https://testnet.blackowl.tech/initia/genesis.json -O $HOME/.initia/config/genesis.json
 wget https://testnet.blackowl.tech/initia/addrbook.json -O $HOME/.initia/config/addrbook.json
+```
 
-# Set Minimum Gas Price
+#### Set Minimum Gas Price
+```shell
 sed -i 's|minimum-gas-prices =.*|minimum-gas-prices = "0.15uinit,0.01uusdc"|g' $HOME/.initia/config/app.toml
+```
 
-# Disable Indexer (Optional)
+#### Disable Indexer (Optional)
+```shell
 indexer="null"
 sed -i -e "s/^indexer *=.*/indexer = \"$indexer\"/" $HOME/.initia/config/config.toml
+```
 
-# Set SEED and PEERS
-SEEDS="2eaa272622d1ba6796100ab39f58c75d458b9dbc@34.142.181.82:26656,c28827cb96c14c905b127b92065a3fb4cd77d7f6@testnet-seeds.whispernode.com:25756"
-PEERS="480ecb724a038abc6cbba1da0094fadb348ea20c@129.226.144.252:26656,46e75102878a26aac6c8ea70269605030cd689ec@51.195.62.112:56116,454be72f212062922913df7d406531794abc6828@43.157.28.44:26656,292cb203a4eb763ff3c6831584168602ad0f88eb@89.117.62.43:26656,3ffc950d7cb2004c39ea5723dd90ed005bc300c1@43.131.45.201:26656,be785c01a6069e4318773125fbf1022ddceecea3@65.109.52.162:26699,c6edf09a70cb97593a2780d319878fae942a7817@43.131.57.124:26656,7cb4a173f4df8720149cebb31853a853d4613d4c@43.130.234.14:26656,5a96e49cf4d3642b9b65ef916ac5f5e4cab32b1f@167.99.62.81:26656,70e4ebf09abac1fba668bd4009e84bcba1be8a81@43.134.241.186:26656,de778930fdbb2ad3608e3345a8f033e1110833f2@185.185.83.51:26656,777d04dde7692bd6ed0166bfbc8f47c44be4dd15@80.92.206.17:33756,72573b8b5af3b1b4006e5e8d136bf8d38edc4fc5@43.153.133.80:26656,82620f605fa8777c16a7b78d7be15ea43ecefefd@161.35.74.142:26656,8db320e665dbe123af20c4a5c667a17dc146f4d0@51.75.144.149:24556,365649da2ac0cbaf2772a9160fca3ac764ff880b@52.172.218.19:53456,bed55ace8bd4dfc3de2e50e4f96636cc24ce1728@38.242.148.54:26656,3ed532fa688a49823655e87169a47f12922dc843@43.130.228.15:26656,3b944bcae9db0b88d8419adde8e26188a6a5ef5d@65.109.59.22:25756,cf7ecafede4a07d9e2f4b62ae9065365b6ebe7bd@178.128.103.210:26656"
-sed -i 's|^seeds *=.*|seeds = "'$SEEDS'"|; s|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.initia/config/config.toml
+#### Set SEED and PEERS
+```shell
+SEEDS="3f472746f46493309650e5a033076689996c8881@initia-testnet.rpc.kjnodes.com:17959,c28827cb96c14c905b127b92065a3fb4cd77d7f6@testnet-seeds.whispernode.com:25756"
+PEERS="8c1309669bbc16c1b14e0cf6b532887980287760@51.91.80.136:11356,ab6da2cf3c972d5f19b1b0bd1517e89d664d4340@138.201.85.253:26757,c86acc6936b8cb85d75c68880092f99da8d7f380@5.9.85.89:22656,126a49237e1d14237210925eb556428b61a520ad@185.235.240.17:26656,429fa83ed65d0b05bc9f905216704bc59fb7fe79@103.229.81.58:26656,5af6c4d04da9f779772b483c34ec00b906257d80@95.111.225.196:14656,4b46df8b64fcacc2ad5253bc0831369d6bb8d4d5@185.234.65.45:26656,6e8084813784e20608ced00fabea9b076a2e51c6@62.171.171.166:26656,139190a3f948e26747518e48331f7c1ea9c0c899@149.50.103.103:26656,80e589c75a97009d0262a6e7b5c737e9bc984270@88.99.137.138:26656,86ef54e9beb4fd5bdd94d8f26a57b1cf3a3aa269@65.108.129.239:26656,2052c1d959ad68af40ea979dfce406fc8b7a6210@159.69.94.40:26656,a0e73b396fcbc22d5540379475fc919294958f97@194.233.92.45:11656,5042b5b842d9fb4c48d66722caa07a39fd7f37da@149.50.99.67:26656,5f934bd7a9d60919ee67968d72405573b7b14ed0@65.21.202.124:29656,d9b8e50ac286b2e647e4b627935cd225b4c6ceaf@109.199.97.152:656,f01913ad804b63cad146d51ae9f1a483626cfc36@65.21.131.187:22656,3c5e76217271f37fb53c1500248c3148f47dacea@31.222.238.31:26656,2cf0f5e1d5880e5865ce66b26f8b2493203fe637@185.103.102.1:26656,908aa7043abc1599bb869b7209f260228c47ba37@162.55.80.21:26656,7af7011b160421008ce7709f2fbba43ed854b62e@77.221.152.52:26656,c172a4a13d772a48bb075182802d961435f41dec@5.189.131.163:26656,5747f9fa91a76080f6d6f459eb59eb6f0f3e98f0@194.163.168.41:15656,fd64255c42b641483f44661c4d33e5b0d0112693@62.169.18.81:26656,62d97be6102b7c5e6fe221672722348bd7553073@34.126.129.53:26656,8cf83fb644b7caab0a908c061ac9d0236b4442de@88.99.249.107:26656,ede6ae80b65b2a6788ad85b527f0970d837c5b74@88.99.254.62:28656,adcc66fe67427a0ea1d0a0855983a9d89d84ecd3@38.242.159.147:15656,3f5e90ea6ad817bd3650a9b1574f0f554ddb6725@149.50.111.63:14656,b7f2c68d8f38b7c1fec511a0b106bf5e9f05d9cd@46.4.52.158:49656"
+sed -i -e "s|^persistent_peers *=.*|persistent_peers = \"$PEERS\"|" $HOME/.initia/config/config.toml
 sed -i 's/max_num_inbound_peers =.*/max_num_inbound_peers = 150/g' $HOME/.initia/config/config.toml
 sed -i 's/max_num_outbound_peers =.*/max_num_outbound_peers = 150/g' $HOME/.initia/config/config.toml
+```
 
-# Enable Prometheus
+#### Enable Prometheus
+```shell
 sed -i 's|^prometheus *=.*|prometheus = true|' $HOME/.initia/config/config.toml
+```
 
-# Set Pruning Options
+#### Set Pruning Options
+```shell
 pruning="custom"
 pruning_keep_recent="100"
 pruning_keep_every="0"
-pruning_interval="50"
+pruning_interval="19"
 sed -i -e "s/^pruning *=.*/pruning = \"$pruning\"/" $HOME/.initia/config/app.toml
 sed -i -e "s/^pruning-keep-recent *=.*/pruning-keep-recent = \"$pruning_keep_recent\"/" $HOME/.initia/config/app.toml
 sed -i -e "s/^pruning-keep-every *=.*/pruning-keep-every = \"$pruning_keep_every\"/" $HOME/.initia/config/app.toml
 sed -i -e "s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.initia/config/app.toml
+```
 
-# Creating the Service File
+#### Creating the Service File
+```shell
 tee /etc/systemd/system/initiad.service > /dev/null << EOF
 [Unit]
 Description=Initia Node
@@ -124,14 +139,14 @@ EOF
 Reload the systemd configuration and start the Initia service.
 ```shell
 systemctl daemon-reload
-systemctl enable initiad
-systemctl start initiad
+systemctl enable initiad.service
+systemctl start initiad.service
 ```
 
 ## Checking the Logs
 Monitor the logs to ensure the node is running correctly.
 ```shell
-journalctl -u initiad -f -o cat
+journalctl -u initiad.service -f -o cat
 ```  
 
 :::warning
