@@ -67,10 +67,10 @@ Finally, we need to start the Oracle service and restart the Initia node.
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable oracle
-sudo systemctl start oracle
+sudo systemctl enable initia-oracle
+sudo systemctl start initia-oracle
 sudo systemctl restart initiad
-sudo journalctl -u oracle -f -o cat
+sudo journalctl -u initia-oracle -f -o cat
 ```
 
 ### Delete Oracle
