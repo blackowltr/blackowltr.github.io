@@ -67,17 +67,17 @@ Finally, we need to start the Oracle service and restart the Initia node.
 
 ```bash
 sudo systemctl daemon-reload
-sudo systemctl enable initia-oracle
-sudo systemctl start initia-oracle
+sudo systemctl enable oracle.service
+sudo systemctl start oracle.service
 sudo systemctl restart initiad
-sudo journalctl -u initia-oracle -f -o cat
+sudo journalctl -u oracle.service -f -o cat
 ```
 
 ### Delete Oracle
 ```
-sudo systemctl stop initia-oracle
-sudo systemctl disable initia-oracle
-sudo rm /etc/systemd/system/initia-oracle.service
+sudo systemctl stop oracle.service
+sudo systemctl disable oracle.service
+sudo rm /etc/systemd/system/oracle.service
 rm -rf $HOME/slinky
 sudo rm /usr/local/bin/slinky
 ```
