@@ -1,7 +1,5 @@
 # Nexus zkVM Proof Guide
 
-<img width="3300" alt="nexus_docs-header" src="https://github.com/blackowltr/blackowltr.github.io/assets/107190154/b8ad014f-5a2a-493e-8476-4512b5035901">
-
 #### 1. Install CMAKE
 
 First, you need to install CMAKE, a tool used for managing the build process of software. Open your terminal and enter the following command:
