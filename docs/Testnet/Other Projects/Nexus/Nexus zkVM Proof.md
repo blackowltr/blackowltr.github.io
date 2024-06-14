@@ -142,5 +142,3 @@ cargo nexus verify
 ```
 
 Save the `NEXUS-PROOF` somewhere in your directory for future reference.
-
-![Adsız tasarım (10)](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/381fecf2-3c36-4b30-b1d5-de94fd354f8b)
