@@ -1,4 +1,4 @@
-# Citrea Node Installation Guide
+# Citrea Full Node
 
 ![Full Node (1)](https://github.com/blackowltr/Testnetler-ve-Rehberler/assets/107190154/35ad5554-3919-4176-bf4d-b449f74cb3fc)
 
