@@ -143,4 +143,4 @@ cargo nexus verify
 
 Save the `NEXUS-PROOF` somewhere in your directory for future reference.
 
-<img width="876" alt="Ekran Resmi 2024-06-14 17 26 50" src="https://github.com/blackowltr/blackowltr.github.io/assets/107190154/96ba49d8-ba59-457a-9900-e0b9b7df1969">
+![Adsız tasarım (10)](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/381fecf2-3c36-4b30-b1d5-de94fd354f8b)
