@@ -8,7 +8,7 @@ keywords: [alignedlayer, proof]
 
 ![image](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/e8c0f6fc-866e-4934-9173-5a0770b533ea)
 
-## Step 1: Download and Install Aligned
+## Download and Install Aligned
 
 To send proofs in the testnet, download and install Aligned by running the following command:
 
@@ -18,7 +18,7 @@ curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batche
 
 If you experience any issues, upgrade by running the same command.
 
-## Step 2: Download Example SP1 Proof Files
+## Download Example SP1 Proof Files
 
 Download an example SP1 proof file along with its ELF file using the command below:
 
@@ -26,7 +26,7 @@ Download an example SP1 proof file along with its ELF file using the command bel
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/get_proof_test_files.sh | bash
 ```
 
-## Step 3: Send the Proof
+## Send the Proof
 
 Send the proof with the following command:
 
@@ -41,7 +41,7 @@ aligned submit \
 
 Wait a few seconds for your proof to be verified in Aligned.
 
-## Step 4: Verify the Proof On-Chain
+## Verify the Proof On-Chain
 
 Check that your proof has been verified with the following command:
 
@@ -53,5 +53,9 @@ aligned verify-proof-onchain \
 ```
 
 That's it! You've successfully sent and verified your SP1 proofs using Aligned.
+
+## Finally, publish a post on X
+
+[Here is an example](https://x.com/brsbtc/status/1802985853112750467)
 
 [Don't forget to follow me on X.](https://x.com/brsbtc)
