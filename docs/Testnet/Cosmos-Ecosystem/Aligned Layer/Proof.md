@@ -15,8 +15,11 @@ To send proofs in the testnet, download and install Aligned by running the follo
 ```bash
 curl -L https://raw.githubusercontent.com/yetanotherco/aligned_layer/main/batcher/aligned/install_aligned.sh | bash
 ```
+```
+source /root/.bashrc
+```
 
-If you experience any issues, upgrade by running the same command.
+> If you experience any issues, upgrade by running the same command.
 
 ## Download Example SP1 Proof Files
 
