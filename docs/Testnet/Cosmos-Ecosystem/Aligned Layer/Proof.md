@@ -1,3 +1,9 @@
+---
+title: 🧾 Proof
+sidebar_position: 6
+keywords: [alignedlayer, proof]
+---
+
 # Sending and Verifying SP1 Proofs with Aligned
 
 ![image](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/e8c0f6fc-866e-4934-9173-5a0770b533ea)
