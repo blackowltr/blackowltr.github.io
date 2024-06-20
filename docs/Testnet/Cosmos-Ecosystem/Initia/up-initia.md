@@ -7,7 +7,6 @@ sidebar_position: 2
 ```shell
 wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.15.sh | bash
 ```
---- 
 
 ### v0.2.19 
 ```shell
