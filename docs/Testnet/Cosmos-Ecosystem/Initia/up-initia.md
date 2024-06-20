@@ -3,8 +3,19 @@ title: 🆙 Upgrade
 sidebar_position: 2
 ---
 
-# Update
-> v0.2.15 
+### v0.2.15 
 ```shell
 wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.15.sh | bash
+```
+--- 
+
+### v0.2.19 
+```shell
+cd $HOME
+rm -rf initia
+git clone https: //github.com/initia-labs/initia.git
+cd initia
+git checkout v0.2.19
+make build
+sudo mv build/initiad $(which initiad)
 ```
