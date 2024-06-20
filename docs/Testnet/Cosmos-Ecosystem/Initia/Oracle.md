@@ -5,7 +5,7 @@ sidebar_position: 6
 
 # Initia Oracle Setup Guide
 
-## Step 1: Download and Install Slinky
+## Download and Install Slinky
 
 First, we need to download and install the Slinky software, which is used for the Oracle.
 
@@ -18,7 +18,7 @@ make build
 ln -s "$HOME/slinky/build/slinky" "/usr/bin/"
 ```
 
-## Step 2: Update `app.toml`
+## Update `app.toml`
 
 Next, we need to update the `app.toml` configuration file for Initia.
 
@@ -28,7 +28,7 @@ sed -i -e 's|^oracle_address *=.*|oracle_address = "127.0.0.1:8080"|' $HOME/.ini
 sed -i -e 's|^client_timeout *=.*|client_timeout = "500ms"|' $HOME/.initia/config/app.toml
 ```
 
-## Step 3: Create Oracle Service
+## Create Oracle Service
 
 We will create a systemd service to manage the Oracle.
 
@@ -61,7 +61,7 @@ WantedBy=multi-user.target
 EOF
 ```
 
-## Step 4: Launch Oracle and Restart Node
+## Launch Oracle and Restart Node
 
 Finally, we need to start the Oracle service and restart the Initia node.
 
