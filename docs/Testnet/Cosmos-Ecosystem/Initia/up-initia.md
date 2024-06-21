@@ -5,7 +5,13 @@ sidebar_position: 2
 
 ### v0.2.15 
 ```shell
-wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.15.sh | bash
+cd $HOME
+rm -rf initia
+git clone https: //github.com/initia-labs/initia.git
+cd initia
+git checkout v0.2.15
+make build
+sudo mv build/initiad $(which initiad)
 ```
 
 ### v0.2.19 
