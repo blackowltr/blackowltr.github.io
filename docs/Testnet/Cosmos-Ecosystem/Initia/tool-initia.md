@@ -3,10 +3,10 @@ title: ⚙️ Tool
 sidebar_position: 6
 ---
 
-### Update v0.2.15
-> To upgrade to version 0.2.15, execute the following command in your terminal:
+### Update v0.2.21
+> To upgrade to version 0.2.21, execute the following command in your terminal:
 ```shell
-wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.15.sh | bash
+wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/v0.2.21.sh | bash
 ```
 
 ### Oracle
