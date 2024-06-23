@@ -15,7 +15,7 @@ wget -qO- https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/m
 wget -O - https://raw.githubusercontent.com/blackowltr/Testnetler-ve-Rehberler/main/Initia/oracle.sh | bash
 ```
 
-## Quick Vote Command for Proposals
+### Quick Vote Command for Proposals
 > Now, participating in voting for proposals is easier than ever with our quick vote command. Execute the following command to swiftly cast your vote:
 ```shell
 bash <(curl -sSL https://github.com/blackowltr/Testnetler-ve-Rehberler/raw/main/Initia/proposal.sh)
