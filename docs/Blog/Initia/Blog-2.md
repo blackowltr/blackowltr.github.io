@@ -22,34 +22,32 @@ Initia positions itself as a "network for interwoven rollups," emphasizing scala
 
 As blockchain ecosystems evolve, the role of modular architectures becomes increasingly pivotal. Initia's approach not only addresses current complexities but also anticipates future challenges by fostering a modular environment where innovations can thrive. This forward-thinking strategy aims to empower developers with tools to build customized solutions while enhancing accessibility and usability for end-users.
 
-**Comparison Tables**
-
 ### Table 1: Blockchain Comparison Table
 
-| Blockchain     | Establishment Year | Maximum TPS | Security Protocols        | Interoperability          | Investment and Funding                    |
-|----------------|--------------------|-------------|---------------------------|---------------------------|-------------------------------------------|
-| Initia         | -                  | 10,000+     | Omnitia Shared Security   | IBC Protocol              | $7.5M (Delphi Digital, Binance Labs, Figment Capital, Hack VC) |
-| Ethereum       | 2015               | ~30         | Proof of Work (PoW)       | EVM, EIPs                 | -                                         |
-| Solana         | 2020               | ~65,000     | Proof of History (PoH)    | SPL, Serum                | $314M (Multicoin Capital, Andreessen Horowitz, Alameda Research) |
-| Binance Smart Chain | 2020          | ~100        | Proof of Stake Authority (PoSA) | BEP-20, PancakeSwap    | -                                         |
-| Cardano        | 2017               | ~250        | Ouroboros                 | Plutus, Marlowe           | -                                         |
+| Blockchain            | Establishment Year | Maximum TPS | Security Protocols        | Interoperability          | Investment and Funding                                      |
+|-----------------------|--------------------|-------------|---------------------------|---------------------------|-------------------------------------------------------------|
+| Initia                | -                  | 10,000+     | Omnitia Shared Security   | IBC Protocol              | $7.5M (Delphi Digital, Binance Labs, Figment Capital, Hack VC) |
+| Ethereum              | 2015               | ~30         | Proof of Work (PoW)       | EVM, EIPs                 | -                                                           |
+| Solana                | 2020               | ~65,000     | Proof of History (PoH)    | SPL, Serum                | $314M (Multicoin Capital, Andreessen Horowitz, Alameda Research) |
+| Binance Smart Chain   | 2020               | ~100        | Proof of Stake Authority (PoSA) | BEP-20, PancakeSwap    | -                                                           |
+| Cardano               | 2017               | ~250        | Ouroboros                 | Plutus, Marlowe           | -                                                           |
 
 ### Table 2: Features Comparison: Initia and Other Blockchains
 
-| Features         | Initia                     | Ethereum                  | Solana                   | Binance Smart Chain      | Cardano                  |
-|------------------|----------------------------|---------------------------|--------------------------|--------------------------|--------------------------|
-| Minitias Feature | Yes                        | No                         | No                        | No                       | No                       |
-| Performance (TPS) | 10,000+                    | ~30                        | ~65,000                   | ~100                     | ~250                     |
-| Security         | Omnitia Shared Security    | Proof of Work (PoW)        | Proof of History (PoH)    | Proof of Stake Authority (PoSA) | Ouroboros             |
-| Interoperability | IBC Protocol               | EVM, EIPs                  | SPL, Serum                | BEP-20, PancakeSwap      | Plutus, Marlowe          |
+| Features             | Initia                     | Ethereum                  | Solana                   | Binance Smart Chain      | Cardano                  |
+|----------------------|----------------------------|---------------------------|--------------------------|--------------------------|--------------------------|
+| Minitias Feature     | Yes                        | No                         | No                        | No                       | No                       |
+| Performance (TPS)    | 10,000+                    | ~30                        | ~65,000                   | ~100                     | ~250                     |
+| Security             | Omnitia Shared Security    | Proof of Work (PoW)        | Proof of History (PoH)    | Proof of Stake Authority (PoSA) | Ouroboros             |
+| Interoperability     | IBC Protocol               | EVM, EIPs                  | SPL, Serum                | BEP-20, PancakeSwap      | Plutus, Marlowe          |
 | Investment and Funding | $7.5M (Delphi Digital, Binance Labs, Figment Capital, Hack VC) | -                    | $314M (Multicoin Capital, Andreessen Horowitz, Alameda Research) | -                  | -                        |
 
 ### Table 3: User-Friendly Interface Features of Initia
 
-| Features            | Description |
-|---------------------|-------------|
-| RPC Management      | Management of all RPCs from a single interface |
-| Wallet Management   | Management of all blockchain wallets from a unified interface |
+| Features               | Description |
+|------------------------|-------------|
+| RPC Management         | Management of all RPCs from a single interface |
+| Wallet Management      | Management of all blockchain wallets from a unified interface |
 | Bridges and Transactions | Integrated bridges and transaction management |
-| Gas Fees            | Average gas fees and optimized transaction costs |
-| Explorer Usage      | Integrated explorer tools for monitoring blockchain activities |
+| Gas Fees               | Average gas fees and optimized transaction costs |
+| Explorer Usage         | Integrated explorer tools for monitoring blockchain activities |
