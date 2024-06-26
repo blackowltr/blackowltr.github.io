@@ -1,4 +1,4 @@
-### Initia: A Deep Dive into the Future of Modular Blockchains
+# Initia: A Deep Dive into the Future of Modular Blockchains
 
 ![image](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/a51b12d3-eb4d-4888-8cf1-e1b2b8f11b71)
 
