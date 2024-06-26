@@ -1,4 +1,4 @@
-### The Evolution of Initia Layer 1: A Versatile Blockchain Platform
+# The Evolution of Initia Layer 1: A Versatile Blockchain Platform
 
 ![image](https://github.com/blackowltr/Testnetler-ve-Rehberler/assets/107190154/6c71c9fa-a5be-4d84-80a7-171e4385c6de)
 
