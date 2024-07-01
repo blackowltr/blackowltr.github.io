@@ -28,7 +28,7 @@ hide_table_of_contents: true
 
 ## **Network Info**
 
-- **Network Chain ID:** zgtendermint_16600-1
+- **Network Chain ID:** zgtendermint_16600-2
 - **Binary:** 0g-chain
 - **Denom:** ua0gi
 - **Working directory:** .0gchain
