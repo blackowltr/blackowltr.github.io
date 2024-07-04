@@ -2,7 +2,7 @@
 title: 🔄 StateSync
 sidebar_position: 2
 ---
-
+```
 systemctl stop initiad
 
 cp $HOME/.initia/data/priv_validator_state.json $HOME/.initia/priv_validator_state.json.backup
@@ -24,3 +24,4 @@ sed -i 's|^trust_hash *=.*|trust_hash = "'$TRUST_HASH'"|' $HOME/.initia/config/c
 mv $HOME/.initia/priv_validator_state.json.backup $HOME/.initia/data/priv_validator_state.json
 
 systemctl restart initiad && journalctl -u initiad -f -o cat
+```
