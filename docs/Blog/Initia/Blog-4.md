@@ -1,4 +1,4 @@
-## Initia: Breaking Down Blockchain Complexity for a Seamless User Experience
+# Initia: Breaking Down Blockchain Complexity for a Seamless User Experience
 
 ![Adsız tasarım (13)](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/1d9a30a2-ac1e-4ad5-b34f-53a5c0f4aa87)
 
