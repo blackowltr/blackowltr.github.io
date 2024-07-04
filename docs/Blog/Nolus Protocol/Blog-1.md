@@ -7,7 +7,7 @@ In the rapidly evolving landscape of decentralized finance (DeFi), Nolus Protoco
 ### Understanding Nolus DeFi Lease
 Central to Nolus Protocol is the DeFi Lease, a groundbreaking concept that allows participants to unlock up to 150% financing on their initial investment. This approach significantly reduces the traditional margin call risks associated with leveraging assets, thereby providing a safer and more predictable environment for both lenders and borrowers.
 
-### Key Features of Nolus DeFi Lease:
+### Key Features of Nolus DeFi Lease
 
 **Reduced Over-Collateralization:** Unlike conventional DeFi platforms, Nolus requires lower collateral amounts, making it accessible for a broader range of users.
 Enhanced Capital Efficiency: By optimizing collateral usage, Nolus maximizes capital efficiency, allowing borrowers to leverage their assets more effectively.
