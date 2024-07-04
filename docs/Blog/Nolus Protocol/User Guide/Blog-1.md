@@ -34,7 +34,7 @@ https://github.com/blackowltr/blackowltr.github.io/assets/107190154/b8cab21a-74d
 
 https://github.com/blackowltr/blackowltr.github.io/assets/107190154/e96c6f35-8928-431c-a6d5-0052d2c70ebb
 
-### DeFi Lease Açma**
+### DeFi Lease Açma
 
 **DeFi Lease Başlatmak İçin Adım Adım Kılavuz**
 
@@ -105,3 +105,65 @@ Sözleşme oluşturulurken kilitlenen aylık faiz oranını gösterir.
 **Ödenecek Faiz**
 
 Faiz, 18 günlük bir döngüde birikir. Faiz ödenmezse, bu miktar (ana parayı hariç) kiralama pozisyonundan düşülecektir. Faiz toplama zamanı iki günden az kaldığında, ödenecek miktar sarı renkte vurgulanır. Pozisyonun tamamen korunması için harekete geçilmesi önerilir. Açıklama aracı, faiz kesilene kadar kalan süreyi sağlar.
+
+### DeFi Kiralama Kapatma
+
+**DeFi Kiralama Kapatma İşlemi İçin Adım Adım Talimatlar**
+
+Nolus dApp üzerinde kiralama kapatma süreci kullanıcı dostu ve basittir. Bu kılavuzda, kiralamanızı rahatlıkla kapatmanızı sağlayacak adımları adım adım açıklayacağız.
+
+![1712820767685-repay+a+lease](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/44ce56f1-050e-4051-97a3-0acc5c34bc31)
+
+**ADIM 1: Ödeme İşlevine Erişim**
+
+Nolus dApp'te kiralama pozisyonunuz ekranına gidin.
+Ödemek istediğiniz kiralama pozisyonunun sağ alt köşesindeki "Öde" düğmesini bulun.
+
+**ADIM 2: Ödeme Miktarını Seçme**
+
+Açılır menüden, ödeme için kullanmak istediğiniz varlığı seçin.
+Ödeme miktarını belirleyin. Şu seçeneklere sahip olacaksınız:
+- Belirli bir değeri doğrudan girme veya yüzdeye dayalı ödeme yapma seçeneği – %25, %50, %75 veya %100.
+
+İpucu: Ödeme parametreleriyle ilgili detaylar, giriş alanının hemen altında bulunur. Bu, ödeme süreci hakkında netlik sağlar ve neler olup bittiğini tam olarak anlamanızı sağlar.
+
+**ADIM 3: Ödemenin Onaylanması**
+
+Tüm detayları çift kontrol ettikten ve ödeme seçimlerinizden emin olduktan sonra, "Öde" düğmesine basın.
+Bir onay penceresi açılacak ve işlemi tamamlamanız istenecektir. Detayları onaylayın ve devam edin.
+
+### Tam Geri Ödeme Sonrası Ne Olur?
+
+![1](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/a0e599f9-bc4d-4f12-8006-4c3010c25a43)
+
+
+**Öde düğmesi, Topla düğmesine dönüşecek.**
+
+-Kiralama pozisyonundan varlıkları almak için Topla düğmesine tıklayın.
+-Onay penceresi açılacaktır. İşlemi tamamlayın.
+-Bu adımı tamamladıktan sonra, kiralanan varlıklarınızı Varlıklar sayfasında bulabilirsiniz.
+
+
+### Piyasa Kapanışı
+
+**Piyasa Kapanışı İçin Adım Adım Kılavuz**
+
+Nolus dApp üzerindeki "Piyasa Kapanışı" özelliği, borçluların DeFi Kiralama pozisyonundaki varlıklarını kısmi veya tam ödemeler için kullanmalarını sağlar, dış varlıklara ihtiyaç duyulmaz. Bu kılavuz, özelliğin kapsamlı bir adım adım kılavuzunu sunacaktır.
+
+**Kısmi Borç Ödemesi**
+![12121](https://github.com/blackowltr/blackowltr.github.io/assets/107190154/0bb5c2b4-6b31-44a6-96d5-2efc341e6f14)
+
+Debt'in bir kısmını kapatmak için kiralama pozisyonunuzun bir kısmını tasfiye etmek için şu adımları izleyin:
+
+-Nolus dApp'e gidin
+-Sol kenar çubuğunda "Kiralama" üzerine tıklayın
+-İstediğiniz kiralama pozisyonunu bulun ve "Kapat" üzerine tıklayın
+-Bir pencere açılır. Borcunuzun bir kısmını kapatmak için ne kadarlık varlığı tasfiye etmek istediğinizi seçin
+NOT: Kiralama pozisyonunuzda kalan varlıklar "Kalan" yanında görüntülenecektir
+-İşlem detaylarını gözden geçirin ve "Kapat" düğmesine basın
+-Cüzdanınızda bir onay penceresi açılacaktır. Onaylayın
+
+**Dikkat Edilmesi Gereken Sınırlamalar**
+
+Bir işlem, tasfiye tutarı 15 doların altında olduğunda başarısız olacaktır.
+Bir işlem, tasfiyenin pozisyon büyüklüğünü 15 dolardan azaltması durumunda başarılı olmayacaktır.
