@@ -116,5 +116,3 @@ Ledger Kullanıcıları: Stride ile likiditeye dönüştürürken, Ledger’da C
 Tebrikler!
 
 Eğer buraya kadar geldiyseniz, DYM’lerinizi başarıyla likiditeye dönüştürdünüz! 🎉
-
-Herhangi bir sorunla karşılaşırsanız, sorularınız varsa veya yardıma ihtiyacınız varsa, lütfen Stride Support Lab’a https://support.stride.zone adresinden ulaşmaktan çekinmeyin.
